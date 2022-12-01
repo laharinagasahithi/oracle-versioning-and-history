@@ -1,0 +1,17 @@
+Version History
+The Version History feature tracks all of the changes that have been made to business rules, transactions, segments and requirements.
+Each time a record is checked-out and updated, a new history file is created and saved.
+
+The Version History node will display the number of the new version, the date the new version was created and the name of the system user who created the new version.
+
+Version History node
+2-11/11/2009 tiffb.xml
+Version History Files
+1-11/10/2009 laurenh.xml
+Use the version history files to replace an existing XML file with a previous history version or compare two history files to see the differences between them.
+
+The Version History folder can be found from the Main Explorer window, or, for requirements, in the Admin Explorer window. Navigate down through the directory tree structure to find the appropriate rule, transaction, segment or requirement file.
+A folder will appear under that specific file’s tree. The folder is labeled Version History and will contain a copy of the record for each change that was made.
+
+Important: If changes are made to the rule, transaction, segment or requirement while using different IVS tracks, only changes saved on the track being used will display.
+It may appear that Version History files are missing; however, they exist on the track where they were saved.
